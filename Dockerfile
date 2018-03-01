@@ -13,7 +13,7 @@ RUN yum install -y powershell
 
 
 # Install azure powerhsell tools
-RUN Install-Module -Name AzureRM.Netcore -AllowClobber -Force 
+#RUN Install-Module -Name AzureRM.Netcore -AllowClobber -Force 
 #RUN powershell "Install-Module PowerShellGet -Force"
 #RUN powershell "Install-Module -Name AzureRM -AllowClobber"
 
