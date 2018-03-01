@@ -6,5 +6,5 @@ services:
     tty: true
     entrypoint: /bin/bash
     volumes:
-       - "$userprofile/home:/host/home"
+       - "$userprofile:/host/home"
 
