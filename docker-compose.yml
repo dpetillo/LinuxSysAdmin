@@ -1,0 +1,10 @@
+version: '3'
+services:
+  ssh:
+    build: .
+    stdin_open: true
+    tty: true
+    entrypoint: /bin/bash
+    volumes:
+       - "$userprofile/home:/host/home"
+
