@@ -7,4 +7,4 @@ services:
     entrypoint: /bin/bash
     volumes:
        - "$userprofile:/host/home"
-
+       - "C:/:/host/drive"
